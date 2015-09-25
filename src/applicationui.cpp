@@ -34,7 +34,7 @@ using namespace bb::data;
 using namespace bb::system;
 
 ApplicationUI::ApplicationUI() :
-        QObject()
+        QObject(), m_readoutAvailable(false)
 {
     // prepare the localization
     m_pTranslator = new QTranslator(this);
