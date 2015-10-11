@@ -38,6 +38,7 @@ config_pri_assets {
     OTHER_FILES += \
         $$quote($$BASEDIR/assets/AdvertiseReadOut.qml) \
         $$quote($$BASEDIR/assets/images/readout.png) \
+        $$quote($$BASEDIR/assets/images/readout_small.png) \
         $$quote($$BASEDIR/assets/main.qml)
 }
 
